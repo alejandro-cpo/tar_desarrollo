@@ -1,0 +1,54 @@
+<body>
+
+   <header>
+     <nav>
+       <h2>Menu nav con imagen de fondo</h2>
+       <div class="contenedor_menu">
+         <a href="index.html">Inicio</a>
+        <a href="index.html">Informacion</a>
+         <a href="cursos.html">Cursos</a>
+         <a href="index.html">Alumnos</a>
+         <a href="ayuda.html">Ayuda</a>
+       </div>
+      </nav>
+     </header>
+     </body>
+
+
+     nav {
+  /fondo usando color */
+  background-color: rgb(127,223,255);
+  /*background-image: url(./img/fondo.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 200px;
+  height: 100px;
+  width: 99%:
+  padding: 5px 5px 5px 5px;
+  position: relative;
+
+}
+.contenedor_menu {
+  position: absolute;
+  margin:20px;
+  bottom: 0;
+  right: 0;
+}
+
+nav div a {
+  float: right;
+  margin-left: 6px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(255, 234, 0);
+  color: rgb(76, 75, 74);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav div a:hover {
+  color: rgb(12, 12, 11);
+  font-weight: bold;
+  background-color: rgb(170,192,245);
+}
